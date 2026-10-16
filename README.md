@@ -1,16 +1,30 @@
-# task3_cloud_content
+# Cloud Content App - Flutter
 
-A new Flutter project.
+A Flutter app that displays content fetched from a remote JSON API in a modern scrollable feed.
 
-## Getting Started
+Features:
+- Live API data from https://jsonplaceholder.typicode.com/posts
+- Scrollable feed with cards (image, title, description)
+- Search to filter posts instantly
+- Detail screen with full content and author info
+- Favorite system with heart icon
+- Network image support
+- Handles loading, error and empty states smoothly
 
-This project is a starting point for a Flutter application.
+Tech Stack:
+- Flutter
+- Dart
+- http package for API calls
+- Provider for state management
+- Material Design
 
-A few resources to get you started if this is your first Flutter project:
+API Used:
+https://jsonplaceholder.typicode.com/posts
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+How to Run:
+1. git clone https://github.com/YOUR_USERNAME/flutter-cloud-content-app.git
+2. flutter pub get
+3. flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Note:
+The API provides sample placeholder text (Lorem Ipsum) for testing purposes like "sunt aut facere..." which is standard dummy content.
